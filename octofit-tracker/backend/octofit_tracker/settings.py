@@ -29,8 +29,8 @@ SECRET_KEY = 'django-insecure-618+=87dk&)jw!l*ae&a04=!p-5vep#ep2_itcn_t!4poobeq+
 DEBUG = True
 
 
-# Allow all hosts for development, while still exposing the expected Codespaces URL.
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0', '*']
+# Allow localhost and the Codespaces URL expected by the exercise.
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 if os.environ.get('CODESPACE_NAME'):
     ALLOWED_HOSTS.append(f"{os.environ.get('CODESPACE_NAME')}-8000.app.github.dev")
 
