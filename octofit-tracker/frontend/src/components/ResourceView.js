@@ -62,7 +62,9 @@ export default function ResourceView({ title, subtitle, resourceName, endpoint, 
         }
 
         const payload = await response.json();
-        console.log(`[${resourceName}] fetched data`, payload);
+        if (process.env.NODE_ENV === 'development') {
+          console.log(`[${resourceName}] fetched data`, payload);
+        }
 
         if (!ignore) {
           setRecords(normalizeCollection(payload));
