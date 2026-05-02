@@ -1,3 +1,12 @@
+```
+  ____             _  _         _
+ / ___| ___  _ __ (_)| |  ___  | |_
+| |    / _ \| '_ \| || | / _ \ | __|
+| |___| (_) | |_) | || || (_) || |_
+ \____|\___/| .__/|_||_| \___/  \__|
+            |_|
+```
+
 # 🤖 GitHub Copilot Cloud Agent — In Action!
 
 > **Issue Acknowledged!** This file was created by **GitHub Copilot Cloud Agent** in response to the issue *"GitHub Copilot Cloud Agent test"* — demonstrating exactly what Cloud Agent can do.
