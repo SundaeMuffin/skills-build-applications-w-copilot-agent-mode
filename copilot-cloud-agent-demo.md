@@ -57,3 +57,9 @@ This repository (`skills-build-applications-w-copilot-agent-mode`) is itself a G
 ---
 
 *Created autonomously by GitHub Copilot Cloud Agent — @copilot*
+
+---
+
+## Acknowledged
+
+> **acknowledged** — This update was added by **GitHub Copilot Cloud Agent** (@copilot) in response to the issue *"this is sample MCP usage"*.
